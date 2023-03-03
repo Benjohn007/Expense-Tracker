@@ -1,0 +1,80 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: "Inter";
+}
+
+*:not(.fa-solid):not(.fa):not(.e-icons){
+    font-family: "Inter";
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #12161d;
+  color: #fff;
+}
+
+.e-bigger {
+    font-size: x-large;
+}
+.main-content{
+    margin-left: 250px;
+}
+/*BreadCrumb*/
+.e-breadcrumb a, .e-breadcrumb a:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+/*Button*/
+.btn:focus, .btn:active{
+    outline:none !important;
+    box-shadow: none;
+}
+.no-a-decoration, .no-a-decoration:hover{
+    text-decoration:none;
+    color:inherit;
+}
+/*Grid*/
+.e-grid{
+    border:0;
+    border-radius: 5px;
+    
+}
+/*Radio btn Group*/
+.e-btn-group.custom-rbt-group {
+    width: 100%;
+}
+.e-btn-group.custom-rbt-group .e-btn{
+    width: 50%;
+}
+
+.custom-rbt-group label.e-btn{
+    box-shadow: none !important;
+    border: 1px solid #fff;
+    background-color: rgb(34 43 51);
+    color: #fff;
+}
+.e-btn-group.custom-rbt-group input:checked + label.e-btn{
+    background-color: #fff;
+    color: #212b36;
+    border: 1px solid #fff;
+}
+#sidebar{
+    background: #12161d;
+    border-right : 1px dashed rgba(75,82,85,0.24);
+    padding: 10px 20px; 
+}
+.widget {
+    border-radius: 1rem;
+    background-color: #1a222b;
+}
